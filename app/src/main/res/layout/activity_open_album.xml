@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".OpenAlbumActivity">
+    <ImageView
+        android:id="@+id/iv_pic"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"/>
+    <EditText
+        android:layerType="software"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <com.myfittinglife.app.x5demo.utils.X5WebView
+        android:id="@+id/x5_web"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.myfittinglife.app.x5demo.utils.X5WebView>
+
+</LinearLayout>
